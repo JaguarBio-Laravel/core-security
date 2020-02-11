@@ -1,0 +1,38 @@
+{
+    "name": "jaguar-ravel/security",
+    "description": "Jaguar Core Security",
+    "type": "library",
+    "license": "GPL",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Laurence Perales",
+            "email": "laurence@jaguarsoft.pe"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "elendev/nexus-composer-push": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {            
+            "Jaguar\\Core\\Security\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {            
+            "Jaguar\\Core\\Security\\": "tests"
+        }
+    },
+    "scripts": {
+        
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
