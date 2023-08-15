@@ -2,8 +2,8 @@
     "name": "jaguarbio/core-security",
     "description": "Jaguar Core Security",
     "type": "library",
-    "license": "GPL",
-    "version": "0.1.0",
+    "license": "MIT",
+    "version": "5.5.0",
     "authors": [
         {
             "name": "Laurence Perales",
