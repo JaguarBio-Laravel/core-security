@@ -32,6 +32,13 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.5.x-dev"
+        },
+        "laravel": {
+            "providers": [                
+                "Jaguar\\Core\\Security\\MainProvider"
+            ],
+            "aliases": {                
+            }
         }
     }
 }
